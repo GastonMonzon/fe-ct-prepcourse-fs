@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Mejor Página Web Del Mundo</title>
+</head>
+
+<body>
+    <h1>Bienvenidos a mi ciudad</h1>
+    <h2>Información General</h2>
+    <main>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Plaza_Emilio_Mitre_en_Maschwitz.jpg/375px-Plaza_Emilio_Mitre_en_Maschwitz.jpg"
+            alt="Imagen de la plaza Emilio Mitre" title="Plaza Emilio Mitre" />
+    </main>
+    <a href="./about.html">Conoce Más</a>
+</body>
+<div>
+    <form action="datos.js" method="GET" enctype="multipart/form-data">
+
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" name="nombre" value="" />
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" name="email" value="" />
+
+        <label for="genero">Género:</label>
+        <input type="radio" name="genero" id="femenino" value="f" />
+        <label for="femenino">Femenino</label>
+        <input type="radio" name="genero" id="masculino" value="m" />
+        <label for="masculino">Masculino</label>
+
+        <label for="talles">Talle:</label>
+        <select name="talles">
+            <option value="L">Large</option>
+            <option value="M">Medium</option>
+            <option value="S">Small</option>
+        </select>
+
+        <label for="consulta">Consulta:</label>
+        <textarea name="consulta" rows="5" cols="33"></textarea>
+
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Borrar" />
+
+    </form>
+</div>
+
+<!-- 
+<table border="1" cellpading="4" cellspacing="4">
+    <caption>Esta es mi tabla</caption>
+    <thead>
+        <th>Encabezado 1</th>
+        <th>Encabezado 2</th>
+        <th>Encabezado 3</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Dato1</td>
+            <td>Dato2</td>
+            <td>Dato3</td>
+        </tr>
+        <tr>
+            <td>Dato4</td>
+            <td>Dato5</td>
+            <td>Dato6</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Dato7</td>
+            <td>Dato8</td>
+            <td>Dato9</td>
+        </tr>
+    </tfoot>
+</table>
+<ol>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+</ol>
+<dl>
+    <dt>Termino</dt>
+    <dd>Definicion</dd>
+</dl>
+-->
+
+</html>
